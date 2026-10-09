@@ -1,96 +1,105 @@
 ---
-title: TinyGarden AI — Local-First AI Assistant for Home Gardening & Plantation
+title: TinyGarden AI 🌿 — Local-First AI Assistant for Home Gardening & Plantation
 published: true
-tags: hacktoberfest, ai, open weight, react, node, ollama
+tags: hf26challenge, hacktoberfest, ai, openweight, react, node, ollama
+cover_image: https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80
 ---
 
-### Problem Statement: TinyGarden AI — Offline Gardening and Plantation Assistant
+> **Submission for the Hacktoberfest 2026 Open-Source AI Challenge (#hf26challenge)**
 
-Many people want to grow plants, maintain home gardens, or participate in tree plantation activities but lack accessible, personalized guidance. Beginners often struggle to determine which plants are suitable for their region, season, soil conditions, sunlight availability, and available space. They may also find it difficult to follow appropriate watering schedules, understand planting requirements, and maintain plants over time.
-
-Existing digital gardening assistants may rely on cloud-based AI services, continuous internet connectivity, or paid APIs, creating barriers for users who need a low-cost and privacy-conscious alternative.
-
-There is a need for an accessible, intelligent gardening assistant that provides personalized planting recommendations, gardening instructions, seasonal guidance, and plant-care planning while minimizing dependence on external services.
-
-TinyGarden AI addresses this problem by using locally executed open-weight AI models, bundled gardening reference information, and locally stored user records to help people make informed gardening decisions and encourage practical outdoor activities.
+### GitHub Repository: [https://github.com/tejask011/Hacktober_TInyGarden](https://github.com/tejask011/Hacktober_TInyGarden)
 
 ---
 
-### Proposed Solution: TinyGarden AI
+### 🌿 Problem Statement
 
-TinyGarden AI is a local-first AI-powered gardening assistant that provides personalized guidance for home gardening, plant care, and tree plantation. The application uses an open-weight language model running locally through Ollama (`gemma2:2b`) to generate planting plans, explain gardening techniques, recommend suitable plants based on user-provided conditions, and create personalized care schedules.
+Many urban gardeners, beginners, and community environmental groups want to cultivate plants or conduct tree plantation drives but lack accessible, personalized guidance. Beginners often struggle with:
+1. Identifying which plants or tree species match their local climate, soil conditions, and sunlight.
+2. Managing watering, fertilizing, and pruning schedules without over-complicating plant care.
+3. Diagnosing leaf discoloration, fungal diseases, or pest attacks using organic remedies.
 
-Users can enter their location or region, soil type, sunlight availability, gardening space, and planting preferences to receive recommendations supported by a bundled gardening knowledge base. The application also maintains a local garden journal, watering reminders, planting calendars, growth records, and a 1-on-1 AI chat assistant.
-
-An image-analysis and symptom module uses locally running vision and diagnostic logic to suggest possible plant identities or visible plant-health issues from uploaded photographs or symptom notes.
-
-TinyGarden AI is designed to provide its core gardening features without paid AI APIs, cloud-based inference, or a Google billing account. Offline mode relies on available local data and user-entered conditions.
-
----
-
-### Main Features
-
-1. **AI Planting Advisor**
-   Suggests optimal plants based on region, season, soil type, sunlight, available space, and user preferences (with preset and custom write-in input support).
-
-2. **Tree Plantation Planner**
-   Generates pit preparation instructions, spacing guidance, aftercare schedules, and maintenance checklists for tree species during plantation drives.
-
-3. **1-on-1 AI Gardening Chat**
-   Direct interactive conversation with Ollama (`gemma2:2b`) for real-time gardening tips, organic pest control advice, and soil management queries.
-
-4. **Plant Health & Identification Helper**
-   Analyze plant images or leaf symptom descriptions for diagnostic explanations and organic remedies.
-
-5. **Smart Gardening Calendar & Journal**
-   Tracks planting dates, watering schedules, fertilizer tasks, and growth notes stored locally on disk.
-
-6. **Offline Gardening Knowledge Base**
-   Bundled regional growing reference data allowing the AI and user to access trusted planting rules without a live web connection.
+Existing digital gardening apps rely on paid cloud AI APIs, continuous internet connectivity, and invasive tracking. There is a strong need for an **accessible, privacy-first, offline-capable AI gardening assistant** that runs 100% locally with $0 API cost.
 
 ---
 
-### Technology Stack
+### 💡 Proposed Solution: TinyGarden AI
 
-| Component | Technology |
+**TinyGarden AI** is an open-source, local-first botanical AI application designed to empower anyone to plant and maintain gardens and trees. It runs directly on top of **Ollama** using local open-weight models (`gemma2:2b`, `llama3.2`, `mistral`), requiring **zero paid cloud APIs, zero credit cards, and zero data telemetry**.
+
+---
+
+### 🌟 Key Features
+
+1. **💬 1-on-1 AI Gardening Chat**
+   - Live interactive chat assistant powered by local Ollama open-weight LLMs.
+   - Provides instant answers for soil preparation, organic pest control, pruning, and composting.
+
+2. **🔍 Foliage Health & Vision Diagnostic Helper**
+   - Symptom-based foliar diagnostic scanner with photo upload support.
+   - Outputs suspected issues (e.g. nitrogen deficiency, powdery mildew, overwatering) alongside step-by-step organic treatment recipes.
+
+3. **📅 Interactive Garden Calendar & Reminders**
+   - **Google Calendar-style Month Grid View** with color-coded event chips:
+     - 💧 **Watering**
+     - 🌱 **Add Soil & Fertilizer**
+     - ✂️ **Pruning & Mulching**
+     - 🐛 **Pest Inspection**
+     - 🍎 **Harvesting**
+
+4. **📝 Garden Journal**
+   - Log plant growth notes, planting dates, soil mix, location, watering frequencies, and custom notes stored permanently on disk.
+
+5. **🌳 Tree Plantation Planner**
+   - Specialized blueprint generator for tree plantation drives (shade trees, fruit orchards, eco-restoration).
+   - Calculates optimal spacing metrics, pit preparation guides, and aftercare checklists.
+
+6. **🧭 AI Planting Advisor**
+   - Recommends crops and foliage tailored to region, season, soil type, sunlight, and available space with write-in support.
+
+---
+
+### 🛠️ Technology Stack
+
+| Layer | Technology |
 | --- | --- |
-| **Frontend** | React + Vite |
-| **Styling** | Vanilla CSS + Tailwind CSS utilities |
-| **Backend** | Node.js + Express |
-| **Local AI Runtime** | Ollama |
-| **Language Model** | Gemma 2 (`gemma2:2b`) open-weight model |
-| **Knowledge Retrieval** | Local JSON reference database (`server/data/gardening_knowledge.json`) |
-| **Database** | Local JSON store (`tinygarden_store.json`) |
-| **API Costs** | USD $0.00 (Zero paid AI cloud endpoints) |
+| **Frontend** | React 19 + Vite, Tailwind CSS + Custom CSS, Lucide Icons |
+| **Backend** | Node.js + Express REST API |
+| **Local AI Engine** | Ollama (`gemma2:2b`, `llama3.2`, `mistral` open-weight LLMs) |
+| **Storage & Reference** | Local SQLite/JSON store (`tinygarden_store.json`) + Bundled Botanical DB |
+| **API Fees** | **USD $0.00** (100% free local open-source AI execution) |
 
 ---
 
-### System Architecture
+### 📐 System Architecture
 
 ```
-React Frontend (Vite)
- ├── Plant details & soil inputs
+React 19 Frontend (Vite)
  ├── 1-on-1 AI Gardening Chat
- ├── Garden journal & task calendar
- └── Offline reference library
+ ├── Plant Health Scanner & Vision Diagnostics
+ ├── Google Calendar Month Grid & Reminders
+ └── Garden Growth Journal
          │
          ▼ (HTTP API)
-Express Backend
- ├── Prompt building & input validation
- ├── Local knowledge retrieval
- └── LLM Service (Ollama / Fallback engine)
+Express Backend (Node.js)
+ ├── Local Botanical Knowledge Base
+ └── Ollama LLM Service Handler
          │
          ▼
-Ollama Open-Weight Model (Gemma 2)
- └── Personalized planting plans, tree blueprints, 1-on-1 chat & health diagnosis
+Ollama Open-Weight AI Model (gemma2:2b)
+ └── Generates local AI responses, disease diagnostics & plantation blueprints
 ```
 
 ---
 
-### What Makes TinyGarden AI Suitable for the Challenge?
+### 🎯 What Makes TinyGarden AI Stand Out for Hacktoberfest?
 
-- **Open-Weight AI Integration**: Uses downloadable models via Ollama (`gemma2:2b`) instead of proprietary paid cloud APIs.
-- **Environmental & Outdoor Impact**: Encourages urban gardening, home farming, and tree plantation drives.
-- **Complete Privacy**: All user garden logs and location parameters remain strictly on the user's local hardware.
-- **Offline Reliability**: Core guidance functions smoothly even in disconnected outdoor areas.
-- **Zero Paid Dependencies**: Fully operational without requiring credit cards or Google API keys.
+- **Pure Open-Source AI**: Runs entirely on open-weight LLMs via Ollama. No proprietary closed APIs.
+- **100% Privacy & Offline Capability**: All garden records and prompts remain on your local disk.
+- **Environmental Impact**: Promotes biodiversity, urban gardening, home agriculture, and community tree planting.
+
+---
+
+### 🔗 Code & Repositories
+
+- **GitHub Repository**: [https://github.com/tejask011/Hacktober_TInyGarden](https://github.com/tejask011/Hacktober_TInyGarden)
+- **Built for**: Hacktoberfest 2026 Open-Source AI Challenge (#hf26challenge)
