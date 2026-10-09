@@ -1,0 +1,53 @@
+{
+  "gardenJournal": [
+    {
+      "id": "p_1",
+      "plantName": "Sweet Basil",
+      "type": "Herb",
+      "plantedDate": "2026-10-09",
+      "location": "Balcony Container",
+      "soilType": "Loamy Potting Mix",
+      "sunlight": "Full Sun (6+ hrs)",
+      "wateringFrequency": "Every 2 days",
+      "status": "Healthy & Growing",
+      "notes": "Planted from seeds. First true leaves emerged!"
+    },
+    {
+      "id": "p_2",
+      "plantName": "Neem Tree (Azadirachta indica)",
+      "type": "Tree",
+      "plantedDate": "2026-10-09",
+      "location": "Front Yard Garden",
+      "soilType": "Well-draining Sandy Loam",
+      "sunlight": "Direct Full Sun",
+      "wateringFrequency": "Twice weekly",
+      "status": "Sapling Stage",
+      "notes": "Planted as part of neighborhood plantation drive."
+    }
+  ],
+  "careTasks": [
+    {
+      "id": "t_1",
+      "plantName": "Sweet Basil",
+      "taskType": "Watering",
+      "dueDate": "2026-10-09",
+      "completed": false,
+      "notes": "Water deeply until drainage holes moisten."
+    },
+    {
+      "id": "t_2",
+      "plantName": "Neem Tree",
+      "taskType": "Organic Fertilizer",
+      "dueDate": "2026-10-12",
+      "completed": false,
+      "notes": "Apply vermicompost around sapling drip line."
+    }
+  ],
+  "savedPlans": [],
+  "settings": {
+    "modelProvider": "ollama",
+    "modelName": "gemma2:2b",
+    "ollamaUrl": "http://localhost:11434",
+    "privacyMode": true
+  }
+}

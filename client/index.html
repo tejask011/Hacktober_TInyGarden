@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TinyGarden AI — Botanical AI Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              forest: {
+                DEFAULT: '#172d13',
+                dark: '#0e1d0c',
+                light: '#23421d',
+              },
+              terracotta: {
+                DEFAULT: '#d76f30',
+                hover: '#bf5c20',
+                glow: 'rgba(215, 111, 48, 0.4)',
+              },
+              leaf: {
+                DEFAULT: '#6bb77b',
+                dark: '#529c61',
+                light: '#e2f2e5',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#f0f5ef] text-[#172d13] min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

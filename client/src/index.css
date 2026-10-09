@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --forest:     #172d13;
+  --terracotta: #d76f30;
+  --leaf:       #6bb77b;
+
+  --bg:         #eaf1e9;
+  --surface:    #ffffff;
+  --surface-2:  #dfebd9;
+  --border:     #b8d5b2;
+  --border-dk:  #172d13;
+  --text:       #172d13;
+  --muted:      #3d5a37;
+  --accent:     #d76f30;
+  --accent-dk:  #b8591e;
+  --accent-lt:  #fceae0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, button, label, input, select, textarea, .font-heading {
+  font-family: 'Outfit', sans-serif;
+}
+
+input, select, textarea {
+  color: #172d13;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 600;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #3d5a37;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+/* Custom Scrollbar */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Botanical Card */
+.botanical-card {
+  background-color: #ffffff;
+  border: 1px solid #b8d5b2;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(23, 45, 19, 0.08);
+  transition: all 0.25s ease;
+}
+
+.botanical-card:hover {
+  border-color: #6bb77b;
+  box-shadow: 0 6px 28px rgba(107, 183, 123, 0.18);
+}
+
+/* Primary Button - Terracotta */
+.btn-mint, .btn-primary {
+  background-color: #d76f30;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Outfit', sans-serif;
+  transition: all 0.2s ease;
+}
+.btn-mint:hover, .btn-primary:hover {
+  background-color: #bf5c20;
+  transform: translateY(-1px);
+}

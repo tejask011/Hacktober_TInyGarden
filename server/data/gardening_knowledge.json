@@ -1,0 +1,116 @@
+[
+  {
+    "id": "kb-001",
+    "name": "Neem (Azadirachta indica)",
+    "category": "Trees",
+    "region": "Tropical & Subtropical (South Asia, India, Arid regions)",
+    "sunlight": "Full Sun (6-8 hours daily)",
+    "soil": "Sandy loam, well-draining, pH 6.0-7.5",
+    "season": "Spring to Early Summer",
+    "spacingMeters": 6,
+    "waterFrequency": "Once every 3-5 days when young, drought-resistant when mature",
+    "imageUrl": "/images/neem.jpg",
+    "description": "Fast-growing evergreen tree prized for shade, medicinal foliage, and natural organic pest control.",
+    "plantingAdvice": "Plant in a broad open area with direct sunlight. Dig a hole twice the width of the root ball. Mix 5kg organic compost with native soil.",
+    "aftercareChecklist": [
+      "Water deeply twice a week for first 3 months",
+      "Mulch around trunk base leaving 5cm distance",
+      "Prune lower side shoots during year 2 to encourage straight trunk"
+    ]
+  },
+  {
+    "id": "kb-002",
+    "name": "Holy Basil / Tulsi (Ocimum tenuiflorum)",
+    "category": "Herbs & Medicinal",
+    "region": "Warm temperate & Tropical",
+    "sunlight": "Full Sun to Partial Shade (4-6 hours direct light)",
+    "soil": "Rich loamy soil, pH 6.0-7.0, excellent moisture retention",
+    "season": "Spring / Summer",
+    "spacingMeters": 0.4,
+    "waterFrequency": "Daily or when top 2cm of soil feels dry",
+    "imageUrl": "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=600&q=80",
+    "description": "Sacred aromatic herb widely cultivated for medicinal teas, essential oils, and home herbal gardens.",
+    "plantingAdvice": "Sow seeds shallowly in rich loamy soil. Keep soil consistently moist until germination (7-14 days). Pinch flower buds early to prolong leaf growth.",
+    "aftercareChecklist": [
+      "Pinch top growing leaves regularly to encourage bushy lateral growth",
+      "Avoid waterlogging soil to prevent fungal root rot",
+      "Add organic worm castings or compost monthly during active growth"
+    ]
+  },
+  {
+    "id": "kb-003",
+    "name": "Tomato (Solanum lycopersicum)",
+    "category": "Vegetables",
+    "region": "Global / Temperate to Tropical",
+    "sunlight": "Full Sun (6-8 hours daily)",
+    "soil": "Organic-rich loamy soil, pH 6.0-6.8, high potassium balance",
+    "season": "Spring to Early Summer",
+    "spacingMeters": 0.6,
+    "waterFrequency": "Deep watering every 2-3 days at soil base",
+    "imageUrl": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&w=600&q=80",
+    "description": "Versatile home vegetable garden staple yielding juicy, nutrient-rich fruit throughout summer.",
+    "plantingAdvice": "Bury seedlings deep up to top leaves so main stems root strongly. Stake or cage young plants early to support heavy fruiting branches.",
+    "aftercareChecklist": [
+      "Provide sturdy wooden stakes or metal cages for vertical support",
+      "Prune bottom leaves touching the ground to prevent fungal blight",
+      "Maintain consistent soil moisture to prevent blossom end rot"
+    ]
+  },
+  {
+    "id": "kb-004",
+    "name": "Moringa / Drumstick Tree (Moringa oleifera)",
+    "category": "Trees",
+    "region": "Tropical & Subtropical",
+    "sunlight": "Full Direct Sun",
+    "soil": "Sandy or loamy well-drained soil, pH 6.3-7.0",
+    "season": "Warm Season",
+    "spacingMeters": 3,
+    "waterFrequency": "Weekly watering once established",
+    "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80",
+    "description": "Nutrient-dense superfood tree producing edible leaves and long seed pods, fast-growing and drought resilient.",
+    "plantingAdvice": "Direct seed or transplant seedlings into well-drained soil. Cut main trunk back at 1.5m to produce dense branching for easy leaf harvest.",
+    "aftercareChecklist": [
+      "Prune back branches yearly to maintain manageable harvest height",
+      "Ensure soil drainage is excellent; Moringa roots decay quickly in standing water",
+      "Harvest leaves frequently to promote continuous new shoot emergence"
+    ]
+  },
+  {
+    "id": "kb-005",
+    "name": "Aloe Vera",
+    "category": "Succulents & Medicinal",
+    "region": "Arid & Warm Temperate",
+    "sunlight": "Bright Indirect Sun or Partial Sunlight",
+    "soil": "Cactus or coarse sandy mix with high permeability, pH 7.0-8.5",
+    "season": "Year-round indoors / Spring outdoors",
+    "spacingMeters": 0.5,
+    "waterFrequency": "Once every 10-14 days; allow soil to dry completely",
+    "imageUrl": "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&w=600&q=80",
+    "description": "Hardy perennial succulent known for skin-soothing gel and low-maintenance indoor air purification.",
+    "plantingAdvice": "Use terracotta pots with bottom drainage holes. Avoid excessive direct harsh midday sun which can scorch leaves brownish-red.",
+    "aftercareChecklist": [
+      "Allow soil to dry thoroughly between waterings",
+      "Separate mature side pups for propagation in spring",
+      "Protect from frost and temperatures below 10°C"
+    ]
+  },
+  {
+    "id": "kb-006",
+    "name": "Mango Tree (Mangifera indica)",
+    "category": "Trees",
+    "region": "Tropical & Subtropical",
+    "sunlight": "Full Sun",
+    "soil": "Deep, well-drained alluvial or loamy soil, pH 5.5-7.5",
+    "season": "Monsoon / Rainy Season",
+    "spacingMeters": 8,
+    "waterFrequency": "Weekly when young; minimal once established",
+    "imageUrl": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=600&q=80",
+    "description": "Majestic long-lived fruit tree providing dense shade canopy and sweet tropical summer fruits.",
+    "plantingAdvice": "Dig pit 1m x 1m x 1m. Mix topsoil with decomposed farmyard manure. Plant grafted sapling carefully without breaking root ball.",
+    "aftercareChecklist": [
+      "Protect young saplings from harsh wind with wooden supports",
+      "Apply balanced organic fertilizer twice a year (post-monsoon & pre-bloom)",
+      "Withhold heavy watering during flowering to encourage fruit set"
+    ]
+  }
+]

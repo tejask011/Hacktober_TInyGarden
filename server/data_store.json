@@ -1,0 +1,113 @@
+{
+  "savedWalks": [],
+  "completedWalks": [],
+  "userStats": {
+    "totalWalksCount": 0,
+    "totalDistanceKm": 0,
+    "totalMinutesWalked": 0,
+    "currentStreak": 0,
+    "lastWalkDate": null,
+    "xp": 0,
+    "level": 1
+  },
+  "badges": [
+    {
+      "id": "first_step",
+      "title": "First Steps",
+      "icon": "Footprints",
+      "description": "Completed your first WalkWise walk!",
+      "unlocked": false,
+      "unlockedAt": null
+    },
+    {
+      "id": "nature_lover",
+      "title": "Nature Explorer",
+      "icon": "Trees",
+      "description": "Completed 3 Peaceful Nature walks",
+      "unlocked": false,
+      "progress": 0,
+      "target": 3,
+      "unlockedAt": null
+    },
+    {
+      "id": "distance_5k",
+      "title": "5 KM Wanderer",
+      "icon": "Compass",
+      "description": "Walked a total of 5 km",
+      "unlocked": false,
+      "progress": 0,
+      "target": 5,
+      "unlockedAt": null
+    },
+    {
+      "id": "streak_3",
+      "title": "Habit Builder",
+      "icon": "Flame",
+      "description": "Maintained a 3-day walking streak",
+      "unlocked": false,
+      "unlockedAt": null
+    },
+    {
+      "id": "mindful_master",
+      "title": "Mindful Observer",
+      "icon": "Eye",
+      "description": "Completed 5 sensory observation prompts",
+      "unlocked": false,
+      "progress": 0,
+      "target": 5,
+      "unlockedAt": null
+    },
+    {
+      "id": "challenge_hero",
+      "title": "Outdoor Hero",
+      "icon": "Trophy",
+      "description": "Completed 5 micro outdoor missions",
+      "unlocked": false,
+      "progress": 0,
+      "target": 5,
+      "unlockedAt": null
+    }
+  ],
+  "challenges": [
+    {
+      "id": "c1",
+      "title": "The Canopy Glance",
+      "theme": "Nature Discovery",
+      "description": "Look up and notice 3 distinct leaf shapes or tree structures during your walk.",
+      "rewardXp": 50,
+      "completed": false
+    },
+    {
+      "id": "c2",
+      "title": "Silent Footsteps",
+      "theme": "Peaceful Walk",
+      "description": "Walk for 5 full minutes without checking your phone or audio device.",
+      "rewardXp": 40,
+      "completed": false
+    },
+    {
+      "id": "c3",
+      "title": "Local Heritage Spotter",
+      "theme": "Historical Exploration",
+      "description": "Locate a historic marker, sign, or building constructed before 1980.",
+      "rewardXp": 60,
+      "completed": false
+    },
+    {
+      "id": "c4",
+      "title": "Bench & Breathing",
+      "theme": "Sensory Walk",
+      "description": "Sit on a park bench for 2 minutes and focus purely on surrounding sounds.",
+      "rewardXp": 30,
+      "completed": false
+    }
+  ],
+  "settings": {
+    "modelProvider": "local_fallback",
+    "modelName": "gemma2:2b",
+    "ollamaHost": "http://localhost:11434",
+    "apiKey": "",
+    "privacyMode": true,
+    "speechEnabled": true
+  }
+}
